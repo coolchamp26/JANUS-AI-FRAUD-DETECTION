@@ -93,81 +93,6 @@ JANUS-AI is a comprehensive, AI-powered fraud detection system that combines **5
 
 ---
 
-## 🚀 Quick Start
-
-### Prerequisites
-
-- Python 3.8 or higher
-- pip package manager
-- 4GB RAM minimum (8GB recommended)
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/janus-ai.git
-cd janus-ai
-
-# Create virtual environment (recommended)
-python -m venv janus-env
-
-# Activate virtual environment
-# On Windows:
-janus-env\Scripts\activate
-# On Linux/Mac:
-source janus-env/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### Run Complete System
-
-```bash
-# Generate synthetic data and run full fraud detection pipeline
-python main_pipeline.py
-
-# This will:
-# 1. Generate synthetic datasets (transactions, vendors, tenders, feedback)
-# 2. Run all 5 detection modules
-# 3. Compute unified fraud scores
-# 4. Generate investigation cases
-# 5. Create explainability reports
-# 
-# Expected time: ~30 seconds
-# Output: CSV files with fraud analysis results
-```
-
-### Launch Dashboard
-
-```bash
-# Start the interactive Streamlit dashboard
-streamlit run dashboard_app.py
-
-# Dashboard will open at: http://localhost:8501
-```
-
-### Run Individual Modules
-
-```bash
-# Financial anomaly detection
-python financial_anomaly_detector.py
-
-# Temporal pattern analysis
-python temporal_anomaly_detector.py
-
-# Network collusion detection
-python network_collusion_detector.py
-
-# NLP document analysis
-python nlp_document_analyzer.py
-
-# Citizen feedback analysis
-python citizen_feedback_analyzer.py
-```
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -360,43 +285,6 @@ Recommendation: IMMEDIATE INVESTIGATION
 
 ---
 
-## 🚢 Deployment Options
-
-### Local Development
-```bash
-python main_pipeline.py
-streamlit run dashboard_app.py
-```
-**Time**: 5 minutes | **Effort**: Minimal
-
-### Docker Deployment
-```bash
-docker-compose up -d
-```
-**Time**: 15 minutes | **Effort**: Low
-
-### Cloud Deployment (AWS/Azure/GCP)
-See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions  
-**Time**: 2-4 hours | **Effort**: Medium
-
-### Production (Government Integration)
-Full system integration with APIs and databases  
-**Time**: 2-6 weeks | **Effort**: Full implementation
-
----
-
-## 📚 Documentation
-
-| Document | Description |
-|----------|-------------|
-| [README.md](README.md) | This file - Quick start and overview |
-| [TECHNICAL_DOCUMENTATION.md](TECHNICAL_DOCUMENTATION.md) | Algorithm specifications and methodology |
-| [DEPLOYMENT.md](DEPLOYMENT.md) | Production deployment guide |
-| [QUICK_REFERENCE.md](QUICK_REFERENCE.md) | One-page reference for judges |
-| [PITCH_SUMMARY.md](PITCH_SUMMARY.md) | 2-minute presentation script |
-
----
-
 ## 🎓 Research & References
 
 ### Academic Foundation
@@ -408,25 +296,6 @@ Full system integration with APIs and databases
 - CAG Reports on Public Expenditure
 - NREGA Audit Guidelines
 - Public Procurement Best Practices
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please follow these guidelines:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Areas for Contribution
-- Additional detection modules
-- Performance optimization
-- Dashboard enhancements
-- Documentation improvements
-- Test coverage
 
 ---
 
@@ -444,26 +313,6 @@ We welcome contributions! Please follow these guidelines:
 - Deep learning models for advanced detection
 - Federated learning for multi-agency collaboration
 - Mobile app for field investigators
-
----
-
-## 📞 Support & Contact
-
-### For Technical Issues
-- **GitHub Issues**: [Project Issues](https://github.com/yourusername/janus-ai/issues)
-- **Documentation**: Check existing docs first
-- **Email**: support@janus-ai.example.com
-
-### For Collaboration
-- **Research Partnerships**: research@janus-ai.example.com
-- **Government Pilots**: govt@janus-ai.example.com
-- **Commercial Inquiries**: business@janus-ai.example.com
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -509,16 +358,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🌟 Testimonials
-
-> *"JANUS-AI represents the future of government fraud detection. The multi-intelligence approach and explainability make it superior to any existing solution."*  
-> — **Dr. [Name]**, Fraud Analytics Expert
-
-> *"Finally, a system that auditors can actually trust and understand. The human-readable explanations make all the difference."*  
-> — **[Name]**, Senior Government Auditor
-
----
-
 ## 📊 Quick Stats
 
 ```
@@ -534,21 +373,6 @@ National Impact:      ₹28B+ annual savings
 
 ---
 
-## 🎬 Demo & Presentation
-
-- **Live Dashboard**: Available at startup with `streamlit run dashboard_app.py`
-- **Demo Video**: [Link to demo video]
-- **Presentation**: See `presentation/janus_ai_presentation.html`
-- **Sample Reports**: Check `reports/` directory after running pipeline
-
----
-
-## ⚖️ Legal Disclaimer
-
-JANUS-AI is a fraud detection assistance tool. All flagged transactions require human investigation and validation. The system is not a substitute for professional auditing or legal judgment. Users are responsible for ensuring compliance with applicable laws and regulations.
-
----
-
 ## 🙏 Acknowledgments
 
 - HACK4DELHI organizers for the opportunity
@@ -559,17 +383,4 @@ JANUS-AI is a fraud detection assistance tool. All flagged transactions require 
 
 ---
 
-<div align="center">
-
-**Built with ❤️ for transparent, accountable governance**
-
-### 🔍 JANUS-AI
-*Seeing fraud from every angle*
-
-[🌐 Website](#) | [📚 Docs](TECHNICAL_DOCUMENTATION.md) | [🚀 Demo](#) | [💬 Contact](#)
-
----
-
 **⭐ Star this repo if you find it useful!**
-
-</div>
