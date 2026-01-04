@@ -111,7 +111,6 @@ janus-ai/
 │
 ├── requirements.txt                     # Python dependencies
 ├── README.md                            # This file
-├── DEPLOYMENT.md                        # Production deployment guide
 ├── TECHNICAL_DOCUMENTATION.md           # Algorithm specifications
 ├── QUICK_REFERENCE.md                   # One-page guide
 │
