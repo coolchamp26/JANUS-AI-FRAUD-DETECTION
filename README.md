@@ -1,4 +1,4 @@
-# 🔍 JANUS-AI: AI for Public Fraud & Anomaly Detection
+ji# 🔍 JANUS-AI: AI for Public Fraud & Anomaly Detection
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -111,14 +111,8 @@ janus-ai/
 │
 ├── requirements.txt                     # Python dependencies
 ├── README.md                            # This file
-├── TECHNICAL_DOCUMENTATION.md           # Algorithm specifications
-├── QUICK_REFERENCE.md                   # One-page guide
-│
 ├── reports/                             # Generated fraud reports
 ├── *.csv                                # Generated datasets and results
-│
-└── presentation/
-    └── janus_ai_presentation.html       # Hackathon presentation
 ```
 
 ---
